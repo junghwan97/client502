@@ -1,0 +1,15 @@
+/* external (외부 css) : css 파일에 스타일 코드 작성 */
+
+
+h1 {
+    color:violet; 
+    background-color: green;
+}
+p {
+    color:wheat;
+    background-color: blue;
+}
+h2 {
+    color:aquamarine;
+    background-color: cadetblue;
+}

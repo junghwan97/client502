@@ -6,7 +6,12 @@
         li {
             text-decoration: underline;
         }
-
+        .todo.note {
+            /* class name이 todo note일 때 적용 */
+            text-align: center;
+            text-decoration: underline;
+        }
+        
         /*  > : 자식 선택자 */
         ul>li {
             color: blue;
@@ -23,6 +28,7 @@
 </head>
 
 <body>
+    <div class="todo note">wwwwwwwwwwwwwww</div>
     <!-- ul*2>li*3>lorem3 -->
     <ul class="todo">
         <li>Lorem, ipsum dolor.</li>

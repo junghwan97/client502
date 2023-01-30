@@ -2,6 +2,22 @@
 <html>
 
 <head>
+    <style>
+        .note{
+            color:blue;
+        }
+        .error{
+            text-align: center;
+        }
+        .note.error{
+            color:red;
+            border: 5px dotted;
+        }
+        #para1{
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -25,7 +41,8 @@
     <p class="note error">Dignissimos, ut quisquam!</p>
 
     <!-- p#para1.error.special -->
-    <p id="para1" class="error special"></p>
+    <p id="para1" class="error special">Lorem, ipsum.</p>
+    <p class="error special" id="para1">Lorem, ipsum.</p>
 
 
 </body>

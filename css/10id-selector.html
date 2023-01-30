@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <!-- id 속성 작성 규칙 -->
+    <!-- 숫자로 시작하면 x -->
+    <!-- 빈칸 넣을 수 없음 -->
+    <!-- 특수문자는 - or _ 만 사용할 수 있음 -->
+    <!-- 대소문자 구분함 -->
+    <!-- 한 페이지에 같은 id를 여러번 사용할 수 없음 -->
+
+    <!-- 밑의 예시는 불가능 -->
+    <h1 id="4 head">Lorem, ipsum dolor.</h1>
+    <h1 id="my head">Lorem, ipsum dolor.</h1>
+
+    <!-- 밑의 예시는 다른 아이디를 가진 것으로 판단 -->
+    <h1 id="your_Head">Lorem, ipsum dolor.</h1>
+    <h1 id="your_head">Lorem, ipsum dolor.</h1>
+
+    <!-- 밑의 예시는 가능 (-,_ 사용) -->
+    <h1 id="my_head">Lorem, ipsum dolor.</h1>
+    <h1 id="my-head">Lorem, ipsum dolor.</h1>
+    
+    <!-- 중복 아이디 불가능 -->
+    <h1 id="his_head">Lorem, ipsum dolor.</h1>
+    <h1 id="his_head">Lorem, ipsum dolor.</h1>
+
+</body>
+
+</html>

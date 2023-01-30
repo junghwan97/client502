@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        li {
+            text-decoration: underline;
+        }
+
+        /*  > : 자식 선택자 */
+        ul>li {
+            color: blue;
+        }
+
+        .todo>li {
+            background-color: aqua;
+        }
+
+        .note>li {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ul*2>li*3>lorem3 -->
+    <ul class="todo">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Nulla, similique numquam!</li>
+        <li>Aspernatur, omnis consectetur!</li>
+    </ul>
+    <ul class="note">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Sunt, harum totam.</li>
+        <li>Dolores, perferendis provident?</li>
+    </ul>
+</body>
+
+</html>

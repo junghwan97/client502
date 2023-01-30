@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            color: red;
+        }
+
+        /* 인접한 형제 선택자 */
+        h1+p {
+            background-color: green;
+            color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- (h1>lorem3^p>lorem3)*2+p>lorem3 -->
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem, ipsum dolor.</p>
+    <h1>Maiores, deleniti sint.</h1>
+    <p>Voluptate, cumque ab!</p>
+    <p>Lorem, ipsum dolor.</p>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #my head {
+            color: aqua
+        }
+
+        #yourHead {
+            color: blue
+        }
+
+        #3head {
+            text-align: center;
+        }
+
+        #myHead {
+            color: yellow;
+        }
+
+        #myhead {
+            color: blueviolet
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 밑의 예시는 빈칸이 있어 오류 -->
+    <h1 id="my head">Lorem, ipsum dolor.</h1>
+
+
+    <!-- 밑의 예시는 id의 중복으로 오류 -->
+    <h1 id="yourHead">Lorem, ipsum dolor.</h1>
+    <h1 id="yourHead">Lorem, ipsum dolor.</h1>
+
+    <!-- 밑의 예시는 숫자로 시작해소 오류 -->
+    <h1 id="3head">Lorem, ipsum dolor.</h1>
+    <hr>
+    <!--  밑의 예시는 가능 아이디 중복x -->
+    <h1 id="myHead">Lorem, ipsum dolor.</h1>
+    <h1 id="myhead">Lorem, ipsum dolor.</h1>
+
+    <!-- emmet : #이 id 속성을 의미 -->
+
+    <!-- h1 -->
+    <h1></h1>
+    <!-- h1#head -->
+    <h1 id="head"></h1>
+    <!-- h1#head>lorem -->
+    <h1 id="head">Lorem, ipsum dolor.</h1>
+
+    <!-- h1#head$*3 -->
+    <h1 id="head1"></h1>
+    <h1 id="head2"></h1>
+    <h1 id="head3"></h1>
+
+</body>
+
+</html>

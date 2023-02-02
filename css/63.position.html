@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1 {
+            background-color: yellow;
+        }
+
+        h1:nth-child(odd) {
+            background-color: yellowgreen;
+        }
+        #head1{
+            /* 기본값, 위치를 변경할 수 없음 */
+            /* 포지션된 요소가 아니다. */
+            position: static;
+            left: 50px;
+        }
+        #head2{
+            /* relative : 원래 위치 기준으로 포지션 가능 */
+            /* 원래 위치 기준에서 오른쪽으로 이동 */
+            position: relative;
+            left: 50px;
+        }
+        #head3{
+            /* 원래 위치 기준에서 위로 이동 */
+            position: relative;
+            bottom: 30px;
+        }
+        #head4{
+            /* 원래 위치 기준에서 왼쪽으로 이동 */
+            position: relative;
+            right: 10px;
+        }
+        #head5{
+            /* 원래 위치 기준에서 아래로 이동 */
+            position: relative;
+            top: 20px;
+        }
+        #head6{
+            /* 원래 위치 기준에서 아래로 이동 */
+            /* 원래 위치 기준에서 아래와 오른쪽으로 이동 */
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        #head7:hover{
+            position: relative;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="head1">
+        Lorem.
+    </h1>
+    <h1 id="head2">
+        Ipsum?
+    </h1>
+    <h1 id="head3">
+        Voluptas.
+    </h1>
+    <h1 id="head4">
+        Vel?
+    </h1>
+    <h1 id="head5">
+        Quam.
+    </h1>
+    <h1 id="head6">
+        Porro.
+    </h1>
+    <h1 id="head7">
+        Aspernatur?
+    </h1>
+    <h1 id="head8">
+        Voluptas.
+    </h1>
+    <h1 id="head9">
+        Tenetur.
+    </h1>
+    <h1 id="head10">
+        Quas.
+    </h1>
+</body>
+
+</html>

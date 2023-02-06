@@ -13,12 +13,18 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        let id = prompt("아이디를 입력하세요!", 12345)/*.split("")*/;
+        let [id, pw] = prompt("아이디와 비밀번호를 입력하세요!").split(" ");
+        // let id = prompt("아이디를 입력하세요!");
+        // let pw = prompt("비밀번호를 입력하세요!");
+        
         // id = (+id);/
         id = id.toString();
+        pw = +pw;
+        
         console.log(id);
-        if (id == "12345") {
-            console.log("아이디가 맞습니다!");
+        console.log(pw);
+        if (id == "12345" && pw == 12345) {
+            console.log("로그인이 완료되었습니다!");
         }
         else{
             console.log("아이디를 다시 확인해 주세요!");

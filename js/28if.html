@@ -13,14 +13,20 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        let age = prompt("나이를 입력해주세요!", 0);
+        let [name, age] = prompt("이름과 나이를 입력해주세요!",["홍길동 ", 0]).split(" ");
 
-        age = +age; // number로 변환
+        name = name.toString();
+        age = Number(age); // number로 변환
+
+        console.log(name);
+        console.log(age);
 
         if (age >= 20) {
-            console.log("어른입니다!");
+            console.log(name + "님의 성인 인증이 성공하였습니다!");
         }
-
+        else{
+            console.log(name + "님의 성인 인증이 실패하였습니다!");
+        }
     </script>
 </body>
 

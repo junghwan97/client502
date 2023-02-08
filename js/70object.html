@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    </style>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        let a = ['java', 'spring', 55]; //배열은 값만 들어가고 인덱스가 순서
+        // console.log(a[i]); ----> 이것 때문에 오류 발생
+
+        //object : 여러 값을 저장한 자료형(data type)
+        // 사용 기호{} 
+        // 각 값에 이름을 명시
+        // 값 앞에 이름을 주어야 함 / 순서가 없음
+
+        let b = { lang: "java", frame: "spring", age: 55 };
+
+
+        // 오류! ----> 해결
+
+
+
+        // 출력할 때 값을 저장하고 있는 이름을 문자로 입력
+
+        // 값을 읽을 때 ["property name"] 사용 (거의 안 씀)
+        console.log(b["lang"]);
+        console.log(b["frame"]);
+        console.log(b["age"]);
+
+
+        // 값을 읽을 때 .propertyName 사용
+        console.log(b.lang);
+        console.log(b.frame);
+        console.log(b.age);
+
+
+    </script>
+</body>
+
+</html>
